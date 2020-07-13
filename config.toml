@@ -42,11 +42,11 @@ email = "mariumtapal@gmail.com"
 ## Extras
 [params.extra]
 copyright = "&copy; 2020 Marium Tapal"
-#poweredby = true
-#highlightjs = true
-#socialmarkup = true
-#toc = true
-#displayrssicon = true
+poweredby = false
+highlightjs = false
+socialmarkup = false
+toc = false
+displayrssicon = false
 
 ## Main Menu
 [[menu.main]]
