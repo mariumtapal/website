@@ -1,0 +1,8 @@
+---
+title: "projects"
+author: "Marium Tapal"
+date: "7/16/2020"
+output: html_document
+---
+
+*coding and software projects*
