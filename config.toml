@@ -23,7 +23,7 @@ theme = "hugo-goa"
 [params]
 author = "Marium Tapal"
 intro = "Student at Smith College"
-description = "Double Majoring in Statistical and Data Sciences & Mathematics"
+description = "Double Major in Statistical and Data Sciences & Mathematics"
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -43,7 +43,7 @@ email = "mariumtapal@gmail.com"
 [params.extra]
 copyright = "&copy; 2020 Marium Tapal"
 poweredby = false
-highlightjs = false
+highlightjs = true
 socialmarkup = false
 toc = false
 displayrssicon = false
@@ -55,13 +55,18 @@ displayrssicon = false
     weight = 100
     url = "/about/"
 [[menu.main]]
+    name = "resume"
+    identifier = "resume"
+    weight = 200
+    url = "/resume/"
+[[menu.main]]
     name = "projects"
     identifier = "projects"
-    weight = 200
+    weight = 300
     url = "/projects/"
 [[menu.main]]
     name = "blog"
-    weight = 300
+    weight = 400
     identifier = "blog"
     url = "/blog/"
 
