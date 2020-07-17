@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marium Tapal</title>
-    <link>/</link>
-    <description>Recent content on Marium Tapal</description>
+    <title>Projects on Marium Tapal</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Marium Tapal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>about</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>I am an undergraduate student at Smith College double majoring in Statistical and Data Sciences (SDS) &amp;amp; Mathematics expected to graduate in May 2022. I have a passion for data science and engineering where I leverage my technical knowledge with extensive transferable and interpersonal skills to develop and improve tools used in industry.
-I am an R enthusiast: I co-wrote of the fec16 R package. This summer, I am working with Professor Albert Y.</description>
-    </item>
     
     <item>
       <title>fec16</title>
@@ -47,36 +37,6 @@ When you click the Knit button a document will be generated that includes both c
       <guid>/project/moderndive/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
-    </item>
-    
-    <item>
-      <title>projects</title>
-      <link>/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/</guid>
-      <description>coding and software projects
-fec16 R package
-fivethirtyeight R package
-ModernDive book for introductory statistics + R package + labs website</description>
-    </item>
-    
-    <item>
-      <title>resume</title>
-      <link>/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/resume/</guid>
-      <description>You can download a copy of my resume here.</description>
-    </item>
-    
-    <item>
-      <title>Test blogpost</title>
-      <link>/blog/test_blogpost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/test_blogpost/</guid>
-      <description></description>
     </item>
     
   </channel>

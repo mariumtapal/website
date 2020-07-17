@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/about/</loc>
   </url>
   
   <url>
     <loc>/categories/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
   </url>
   
   <url>
@@ -23,7 +23,23 @@
   </url>
   
   <url>
+    <loc>/project/fec16/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/fivethirtyeight/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/moderndive/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
   </url>
   
   <url>
