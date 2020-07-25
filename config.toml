@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://mariumtapal.netlify.app/"
+baseurl = "https://mariumtapal.rbind.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
