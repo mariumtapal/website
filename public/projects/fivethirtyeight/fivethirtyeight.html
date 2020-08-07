@@ -1,0 +1,22 @@
+
+
+<div id="fivethirtyeight" class="section level2">
+<h2><code>fivethirtyeight</code></h2>
+<p>At the start of the internship, the <code>fivethirtyeight</code> R data package was only partially hosted on The Comprehensive R Archive Network (CRAN), mainly because it exceeded the maximum 5MB size required by CRAN. My job was to come up with a solution to this issue while making a future-proof product, i.e. the solution would have the ability to add datasets in the future without extraneous work.</p>
+<p>Our solution was to use the <code>drat</code> package and functionality to host the larger datasets. We created the <code>fivethirtyeightdata</code> organization that included the <code>drat</code> repo and the <code>fivethirtyeightdata</code> add-on package. Some of the reasons why we decided to use the <code>drat</code> package are answered in these <a href="https://eddelbuettel.github.io/drat/DratFAQ.html">FAQs</a>. More information can be found on the <code>drat</code> <a href="https://dirk.eddelbuettel.com/code/drat.html">website</a>. The <code>fivethirtyeightdata</code> package is a regular R data package; it can be installed and ran independently. It contains all the datasets that were too large for the <code>fivethirtyeight</code> package and all the user-contributed vignettes that were made using <code>fivethirtyeight</code>/<code>fivethirtyeightdata</code> datasets.</p>
+<p>Other smaller <code>fivethirtyeight</code> tasks that I worked on were:</p>
+<ul>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/55">Issue 55</a>: Reflect the retirement of <a href="https://tidyr.tidyverse.org/reference/gather.html"><code>tidyr::gather()</code></a> to the new, updated, easier-to-use, <code>pivot_longer()</code>.</li>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/79">Issue 79</a>: Update the master Google Sheet with the new datasets added by students in Smith College’s SDS 390 class in Fall 2019.</li>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/81">Issue 81</a>: Update examples in documentation from <code>if(FALSE)</code> to using <code>\dontrun{}</code>.</li>
+</ul>
+<p>Relevant Links:</p>
+<ul>
+<li><code>fivethirtyeight</code> <a href="https://github.com/rudeboybert/fivethirtyeight">repo</a> + <a href="https://fivethirtyeight-r.netlify.app">website</a></li>
+<li><code>fivethirtyeightdata</code> <a href="https://github.com/fivethirtyeightdata">organization</a>
+<ul>
+<li><code>drat</code> <a href="https://github.com/fivethirtyeightdata/drat">repo</a></li>
+<li><code>fivethirtyeightdata</code> <a href="https://github.com/fivethirtyeightdata/fivethirtyeightdata">repo</a> + <a href="https://fivethirtyeightdata.github.io/fivethirtyeightdata/">website</a></li>
+</ul></li>
+</ul>
+</div>
