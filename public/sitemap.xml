@@ -23,11 +23,11 @@
   </url>
   
   <url>
-    <loc>/project/fec16/</loc>
+    <loc>/projects/fec16/fec16/</loc>
   </url>
   
   <url>
-    <loc>/project/fivethirtyeight/</loc>
+    <loc>/projects/fivethirtyeight/fivethirtyeight/</loc>
   </url>
   
   <url>
@@ -35,11 +35,7 @@
   </url>
   
   <url>
-    <loc>/project/moderndive/</loc>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
+    <loc>/projects/moderndive/moderndive/</loc>
   </url>
   
   <url>
@@ -59,11 +55,11 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/blog/summer_internship_2020/</loc>
   </url>
   
   <url>
-    <loc>/blog/test_blogpost/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

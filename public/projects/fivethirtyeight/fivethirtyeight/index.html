@@ -11,7 +11,7 @@
 <meta name="keywords" content="minimalist,blog,goa,hugo,developer">
 
 <title>
-  Marium Tapal - fivethirtyeight 
+  Marium Tapal - fivethirtyeight R package 
 </title>
 
 <meta name="generator" content="Hugo 0.72.0" />
@@ -42,7 +42,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">fivethirtyeight</h1>
+  <h1 class="title">fivethirtyeight R package</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -63,24 +63,25 @@
     
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="/project/fivethirtyeight/index_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<div id="fivethirtyeight" class="section level2">
+<h2><code>fivethirtyeight</code></h2>
+<p>At the start of the internship, the <code>fivethirtyeight</code> R data package was only partially hosted on The Comprehensive R Archive Network (CRAN), mainly because it exceeded the maximum 5MB size required by CRAN. My job was to come up with a solution to this issue while making a future-proof product, i.e. the solution would have the ability to add datasets in the future without extraneous work.</p>
+<p>Our solution was to use the <code>drat</code> package and functionality to host the larger datasets. We created the <code>fivethirtyeightdata</code> organization that included the <code>drat</code> repo and the <code>fivethirtyeightdata</code> add-on package. Some of the reasons why we decided to use the <code>drat</code> package are answered in these <a href="https://eddelbuettel.github.io/drat/DratFAQ.html">FAQs</a>. More information can be found on the <code>drat</code> <a href="https://dirk.eddelbuettel.com/code/drat.html">website</a>. The <code>fivethirtyeightdata</code> package is a regular R data package; it can be installed and ran independently. It contains all the datasets that were too large for the <code>fivethirtyeight</code> package and all the user-contributed vignettes that were made using <code>fivethirtyeight</code>/<code>fivethirtyeightdata</code> datasets.</p>
+<p>Other smaller <code>fivethirtyeight</code> tasks that I worked on were:</p>
+<ul>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/55">Issue 55</a>: Reflect the retirement of <a href="https://tidyr.tidyverse.org/reference/gather.html"><code>tidyr::gather()</code></a> to the new, updated, easier-to-use, <code>pivot_longer()</code>.</li>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/79">Issue 79</a>: Update the master Google Sheet with the new datasets added by students in Smith College’s SDS 390 class in Fall 2019.</li>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/81">Issue 81</a>: Update examples in documentation from <code>if(FALSE)</code> to using <code>\dontrun{}</code>.</li>
+</ul>
+<p>Relevant Links:</p>
+<ul>
+<li><code>fivethirtyeight</code> <a href="https://github.com/rudeboybert/fivethirtyeight">repo</a> + <a href="https://fivethirtyeight-r.netlify.app">website</a></li>
+<li><code>fivethirtyeightdata</code> <a href="https://github.com/fivethirtyeightdata">organization</a>
+<ul>
+<li><code>drat</code> <a href="https://github.com/fivethirtyeightdata/drat">repo</a></li>
+<li><code>fivethirtyeightdata</code> <a href="https://github.com/fivethirtyeightdata/fivethirtyeightdata">repo</a> + <a href="https://fivethirtyeightdata.github.io/fivethirtyeightdata/">website</a></li>
+</ul></li>
+</ul>
 </div>
 
   </div>
@@ -108,11 +109,13 @@
 <section id="menu-pane" class="row menu text-center">
   
   
-  <span><a class="menu-item" href="/project/moderndive/">&lt; prev | </a></span>
+  <span><a class="menu-item" href="/projects/moderndive/moderndive/">&lt; prev | </a></span>
   
   
-  <span><a class="menu-item" href="/project">project</a></span>
+  <span><a class="menu-item" href="/projects">projects</a></span>
   
+  
+  <span><a class="menu-item" href="/projects/fec16/fec16/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="/">home</a></h4>

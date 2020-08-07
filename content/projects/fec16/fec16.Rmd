@@ -1,12 +1,9 @@
 ---
-title: "fec16"
+title: "fec16 R Package"
 author: "Marium Tapal"
-date: Sys.Date()
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
 categories: []
 tags: []
 output: html_document
 ---
-
-
-
 
