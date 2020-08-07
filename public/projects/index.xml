@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marium Tapal</title>
-    <link>/</link>
-    <description>Recent content on Marium Tapal</description>
+    <title>Projects on Marium Tapal</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Marium Tapal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>about</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi, I&amp;rsquo;m Marium Tapal! I study Statistical and Data Sciences (SDS) &amp;amp; Mathematics at Smith College with an expected graduation date in May 2022. I have a passion for data science and engineering where I leverage my technical knowledge with extensive transferable and interpersonal skills to develop and improve tools used in industry.
-One of my favourite projects is the fec16 R package (hosted on CRAN) that I co-authored. I am also a contributer to the fivethirtyeight R package and the ModernDive book and package.</description>
-    </item>
     
     <item>
       <title>fec16 R Package</title>
@@ -47,24 +37,6 @@ Our solution was to use the drat package and functionality to host the larger da
       <guid>/projects/moderndive/moderndive/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
-    </item>
-    
-    <item>
-      <title>resume</title>
-      <link>/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/resume/</guid>
-      <description>You can download a copy of my resume here.</description>
-    </item>
-    
-    <item>
-      <title>Summer 2020 Data Science Internship</title>
-      <link>/blog/summer_internship_2020/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/summer_internship_2020/</guid>
-      <description>Owing to the COVID-19 pandemic, I was asked to leave my college campus mid-way through the Spring 2020 semester, which, for me, meant leaving the United States for my home in Pakistan. Amid this once-in-a-century pandemic, even though I was now 9 hours ahead of Eastern United States time (where Smith College is located), I wanted to gain some important research experience in Data Science for which, I reached out to Professor Albert Y.</description>
     </item>
     
   </channel>
