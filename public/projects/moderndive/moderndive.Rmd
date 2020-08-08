@@ -1,32 +1,16 @@
 ---
 title: "ModernDive book for introductory statistics + R package + labs website"
-author: "Marium Tapal"
-date: '`r format(Sys.Date(), "%B %d, %Y")`'
 categories: []
 tags: []
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+The ModernDive textbook is a textbook for introductory statistics and data science which is available in print and as an open-source online version. Along with the textbook, there is the moderndive R package which includes data and functions to support the textbook, and a labs website that houses sample problem sets and projects as well as tips and tricks. 
 
-## R Markdown
+My contributions include cleaning up the non-user facing internal R code and text for better reproducibility, simplifying and organizing the labs website for a better user interface, and solving some issues that came up with the `moderndive` R package. I write more about my work [here](http://mariumtapal.rbind.io/blog/summer_internship_2020/#moderndive).
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Links:
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+* Book [repo](https://github.com/moderndive/ModernDive_book) + [online textbook](https://moderndive.com)
+* R package [repo](https://github.com/moderndive/moderndive) + [website](https://moderndive.github.io/moderndive/)
+* Labs [repo](https://github.com/moderndive/moderndive_labs) + [website](moderndive.com/labs)

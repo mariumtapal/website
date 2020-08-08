@@ -1,29 +1,13 @@
 ---
 title: "fivethirtyeight R package"
-author: "Marium Tapal"
-date: '`r format(Sys.Date(), "%B %d, %Y")`'
 categories: []
 tags: []
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+`fivethirtyeight` is a R data package that provides access to the code and data sets published by FiveThirtyEight. I am a contributor to this package, where I used `drat` to author an add-on `fivethirtyeightdata` package to host the large datasets that were too big for CRAN. I talk more about my work in this blog post [here](http://mariumtapal.rbind.io/blog/summer_internship_2020/#fivethirtyeight).
 
-## `fivethirtyeight` {#fivethirtyeight}
-
-At the start of the internship, the `fivethirtyeight` R data package was only partially hosted on The Comprehensive R Archive Network (CRAN), mainly because it exceeded the maximum 5MB size required by CRAN. My job was to come up with a solution to this issue while making a future-proof product, i.e. the solution would have the ability to add datasets in the future without extraneous work. 
-
-Our solution was to use the `drat` package and functionality to host the larger datasets. We created the `fivethirtyeightdata` organization that included the `drat` repo and the `fivethirtyeightdata` add-on package. Some of the reasons why we decided to use the `drat` package are answered in these [FAQs](https://eddelbuettel.github.io/drat/DratFAQ.html). More information can be found on the `drat` [website](https://dirk.eddelbuettel.com/code/drat.html). The `fivethirtyeightdata` package is a regular R data package; it can be installed and ran independently. It contains all the datasets that were too large for the `fivethirtyeight` package and all the user-contributed vignettes that were made using `fivethirtyeight`/`fivethirtyeightdata` datasets.
-
-Other smaller `fivethirtyeight` tasks that I worked on were:
-
-- [Issue 55](https://github.com/rudeboybert/fivethirtyeight/issues/55): Reflect the retirement of [`tidyr::gather()`](https://tidyr.tidyverse.org/reference/gather.html) to the new, updated, easier-to-use, `pivot_longer()`.
-- [Issue 79](https://github.com/rudeboybert/fivethirtyeight/issues/79): Update the master Google Sheet with the new datasets added by students in Smith College's SDS 390 class in Fall 2019.
-- [Issue 81](https://github.com/rudeboybert/fivethirtyeight/issues/81): Update examples in documentation from `if(FALSE)` to using `\dontrun{}`.
-
-Relevant Links:
+Links:
 
 * `fivethirtyeight` [repo](https://github.com/rudeboybert/fivethirtyeight) + [website](https://fivethirtyeight-r.netlify.app)
 * `fivethirtyeightdata` [organization](https://github.com/fivethirtyeightdata)
