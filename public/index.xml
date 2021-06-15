@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marium Tapal</title>
-    <link>/</link>
+    <link>https://mariumtapal.rbind.io/</link>
     <description>Recent content on Marium Tapal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://mariumtapal.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>/about/</link>
+      <link>https://mariumtapal.rbind.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://mariumtapal.rbind.io/about/</guid>
       <description>Hi, I&amp;rsquo;m Marium Tapal! I study Statistical and Data Sciences (SDS) &amp;amp; Mathematics at Smith College with an expected graduation date in May 2022. I am passionate about learning new data science tools and technologies and solving complicated mathematical equations.
 I am an #rstats enthusiast - where I use it for most things in-and-out of school. I am the maintainer of the fec16 R package (hosted on CRAN). I am also a contributor to the fivethirtyeight R package and the ModernDive book and package.</description>
     </item>
     
     <item>
       <title>Automated Simple Normal Regression in R</title>
-      <link>/projects/snr/snr/</link>
+      <link>https://mariumtapal.rbind.io/projects/snr/snr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/snr/snr/</guid>
+      <guid>https://mariumtapal.rbind.io/projects/snr/snr/</guid>
       <description>This project attempts to automate and greatly simplify the process of conducting a Bayesian Simple Normal Regression in R, allowing users to generate an entire report containing a fully customized analysis – including information such as model quality, proposed regression lines, posterior predictions, and more – using only a single line of code.
 This project uses a parameterized R Markdown report and a simple function to perform the magic!</description>
     </item>
     
     <item>
       <title>fec16 R Package</title>
-      <link>/projects/fec16/fec16/</link>
+      <link>https://mariumtapal.rbind.io/projects/fec16/fec16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/fec16/fec16/</guid>
+      <guid>https://mariumtapal.rbind.io/projects/fec16/fec16/</guid>
       <description>  fec16 is an R data package that contains relational data for the United States 2015-2016 election cycle in the form of pre-loaded datasets and functions.
 I will be presenting an e-poster about the fec16 package at the Women in Statistical and Data Sciences 2020 (virtual) conference on October 1, 2020 at 10 a.m. EDT.
 Links:
@@ -40,10 +40,10 @@ Links:
     
     <item>
       <title>fivethirtyeight R Package</title>
-      <link>/projects/fivethirtyeight/fivethirtyeight/</link>
+      <link>https://mariumtapal.rbind.io/projects/fivethirtyeight/fivethirtyeight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/fivethirtyeight/fivethirtyeight/</guid>
+      <guid>https://mariumtapal.rbind.io/projects/fivethirtyeight/fivethirtyeight/</guid>
       <description>  fivethirtyeight is a R data package that provides access to the code and data sets published by FiveThirtyEight. I am a contributor to this package, where I used drat to author an add-on fivethirtyeightdata package to host the large datasets that were too big for CRAN. I talk more about my work in this blog post here.
 Links:
  fivethirtyeight repo + website fivethirtyeightdata organization  drat repo fivethirtyeightdata repo + website   </description>
@@ -51,39 +51,39 @@ Links:
     
     <item>
       <title>Marium Bakes - A Baking (and cooking) Website</title>
-      <link>/projects/marium-bakes/marium_bakes/</link>
+      <link>https://mariumtapal.rbind.io/projects/marium-bakes/marium_bakes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/marium-bakes/marium_bakes/</guid>
+      <guid>https://mariumtapal.rbind.io/projects/marium-bakes/marium_bakes/</guid>
       <description>I have created (currently a WIP) a baking website using rmarkdown, HTML, and CSS, that houses my favourite tried-and-tested recipes. It is hosted via GitHub Pages at: https://mariumtapal.github.io/marium-bakes/
 GitHub Repo: https://github.com/mariumtapal/marium-bakes/</description>
     </item>
     
     <item>
       <title>ModernDive book for introductory statistics &#43; R package &#43; labs website</title>
-      <link>/projects/moderndive/moderndive/</link>
+      <link>https://mariumtapal.rbind.io/projects/moderndive/moderndive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/moderndive/moderndive/</guid>
+      <guid>https://mariumtapal.rbind.io/projects/moderndive/moderndive/</guid>
       <description>The ModernDive textbook is a textbook for introductory statistics and data science which is available in print and as an open-source online version. Along with the textbook, there is the moderndive R package which includes data and functions to support the textbook, and a labs website that houses sample problem sets and projects as well as tips and tricks.
 My contributions include cleaning up the non-user facing internal R code and text for better reproducibility, simplifying and organizing the labs website for a better user interface, and solving some issues that came up with the moderndive R package.</description>
     </item>
     
     <item>
       <title>resume</title>
-      <link>/resume/</link>
+      <link>https://mariumtapal.rbind.io/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resume/</guid>
+      <guid>https://mariumtapal.rbind.io/resume/</guid>
       <description>You can download a copy of my resume here.</description>
     </item>
     
     <item>
       <title>Summer 2020 Data Science Internship (Praxis Funded!)</title>
-      <link>/blog/summer_internship_2020/</link>
+      <link>https://mariumtapal.rbind.io/blog/summer_internship_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/summer_internship_2020/</guid>
+      <guid>https://mariumtapal.rbind.io/blog/summer_internship_2020/</guid>
       <description>Owing to the COVID-19 pandemic, I was asked to leave my college campus mid-way through the Spring 2020 semester, which, for me, meant leaving the United States for my home in Pakistan. Amid this once-in-a-century pandemic, even though I was now 9 hours ahead of Eastern United States time (where Smith College is located), I wanted to gain some important research experience in Data Science for which, I reached out to Professor Albert Y.</description>
     </item>
     
