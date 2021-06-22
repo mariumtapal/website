@@ -23,7 +23,7 @@ theme = "hugo-goa"
 [params]
 author = "Marium Tapal"
 intro = "Senior at Smith College"
-description = "Double Major in Statistical and Data Sciences & Mathematics"
+description = "Double Major in Mathematics & Statistical and Data Sciences "
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
 
