@@ -7,6 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language><atom:link href="https://mariumtapal.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A Guided Activity About Binary Classification in Unimodal and Multimodal Memes</title>
+      <link>https://mariumtapal.rbind.io/projects/multimodal-memes/multimodal-memes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariumtapal.rbind.io/projects/multimodal-memes/multimodal-memes/</guid>
+      <description>This project attempts to teach binary classification in unimodal and multimodal memes to my classmates in the Spring 2021 Smith College Modeling for Machine Learning course in under 15 minutes.
+It is based upon the The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes paper by researchers at Facebook AI.
+Here is the GitHub repo for this project. You can view the activity here.</description>
+    </item>
+    
+    <item>
       <title>about</title>
       <link>https://mariumtapal.rbind.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -14,6 +25,16 @@
       <guid>https://mariumtapal.rbind.io/about/</guid>
       <description>Hi, I&amp;rsquo;m Marium Tapal! I study Statistical and Data Sciences (SDS) &amp;amp; Mathematics at Smith College with an expected graduation date in May 2022. I am passionate about learning new data science tools and technologies and solving complicated mathematical equations.
 I am an #rstats enthusiast - where I use it for most things in-and-out of school. I am the maintainer of the fec16 R package (hosted on CRAN). I am also a contributor to the fivethirtyeight R package and the ModernDive book and package.</description>
+    </item>
+    
+    <item>
+      <title>Aligned Hierarchies</title>
+      <link>https://mariumtapal.rbind.io/projects/ah/ah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariumtapal.rbind.io/projects/ah/ah/</guid>
+      <description>Aligned Hierarchies (ah) is an open-source Music Information Retrieval Python package. I am working with a geographically distributed team of 5 people to accomplish the following by August 2021:
+ host package on the Python Package Index and on Anaconda.org build a documentation website via Sphinx submit a paper to the Journal of Open Source Software.  Once this project is made public, I will add relevant links.</description>
     </item>
     
     <item>
@@ -33,9 +54,10 @@ This project uses a parameterized R Markdown report and a simple function to per
       
       <guid>https://mariumtapal.rbind.io/projects/fec16/fec16/</guid>
       <description>  fec16 is an R data package that contains relational data for the United States 2015-2016 election cycle in the form of pre-loaded datasets and functions.
-I will be presenting an e-poster about the fec16 package at the Women in Statistical and Data Sciences 2020 (virtual) conference on October 1, 2020 at 10 a.m. EDT.
+I presented an e-poster about the fec16 package at the Women in Statistical and Data Sciences 2020 conference and at the Electronic Undergraduate Statistics Research Conference.
 Links:
- GitHub CRAN  </description>
+ GitHub CRAN
+ WSDS poster eUSR slides (not hosted)  </description>
     </item>
     
     <item>
@@ -76,6 +98,16 @@ My contributions include cleaning up the non-user facing internal R code and tex
       
       <guid>https://mariumtapal.rbind.io/resume/</guid>
       <description>You can download a copy of my resume here.</description>
+    </item>
+    
+    <item>
+      <title>Shiny App exploring NYC Civilian Complaints about the NYPD</title>
+      <link>https://mariumtapal.rbind.io/projects/shiny-nypd/shiny-nypd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariumtapal.rbind.io/projects/shiny-nypd/shiny-nypd/</guid>
+      <description>This Shiny app provides an interactive tool to visualize the impact of body cameras on civilian complaints against the NYPD before and after the 2017 NYC policy that requires the NYPD to release all body cam footage of incidents involving force which ended in injury or death has changed.
+This project was a group project with Eleni Partakki and Elisabeth Nesmith for the Spring 2021 Smith College Visual Analytics course.</description>
     </item>
     
     <item>

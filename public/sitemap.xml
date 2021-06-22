@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mariumtapal.rbind.io/projects/multimodal-memes/multimodal-memes/</loc>
+  </url><url>
     <loc>https://mariumtapal.rbind.io/tags/about/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/categories/about/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/about/</loc>
+  </url><url>
+    <loc>https://mariumtapal.rbind.io/projects/ah/ah/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/projects/snr/snr/</loc>
   </url><url>
@@ -31,6 +35,8 @@
     <loc>https://mariumtapal.rbind.io/categories/resume/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/resume/</loc>
+  </url><url>
+    <loc>https://mariumtapal.rbind.io/projects/shiny-nypd/shiny-nypd/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/blog/summer_internship_2020/</loc>
   </url><url>
