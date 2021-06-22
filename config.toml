@@ -22,7 +22,7 @@ theme = "hugo-goa"
 ## Site Settings
 [params]
 author = "Marium Tapal"
-intro = "Junior at Smith College"
+intro = "Senior at Smith College"
 description = "Double Major in Statistical and Data Sciences & Mathematics"
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
