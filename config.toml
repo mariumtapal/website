@@ -22,9 +22,9 @@ theme = "hugo-goa"
 ## Site Settings
 [params]
 author = "Marium Tapal"
-intro = "Senior at Smith College"
-description = "Double Major in Mathematics & Statistical and Data Sciences "
-authorimage = "headshot.jpg"
+intro = "Recent Graduate of Smith College"
+description = "Double Major in Statistical and Data Sciences & Mathematics"
+authorimage = "headshot.JPG"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
@@ -41,7 +41,7 @@ email = "mariumtapal@gmail.com"
 
 ## Extras
 [params.extra]
-copyright = "&copy; 2021 Marium Tapal"
+copyright = "&copy; 2022 Marium Tapal"
 poweredby = true
 highlightjs = true
 socialmarkup = false

@@ -23,18 +23,19 @@ Here is the GitHub repo for this project. You can view the activity here.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mariumtapal.rbind.io/about/</guid>
-      <description>Hi, I&amp;rsquo;m Marium Tapal! I study Mathematics &amp;amp; Statistical and Data Sciences at Smith College (a historically women&amp;rsquo;s college in Massachusetts, USA) with an expected graduation date in May 2022. I am passionate about learning new data science tools and technologies and solving complicated mathematical equations. I am looking for full-time opportunities beginning in the summer!
-My primary programming language is R. I am the maintainer of the fec16 R package (hosted on CRAN).</description>
+      <description>Hi, I&amp;rsquo;m Marium Tapal! I am a recent graduate of Smith College (a historically women&amp;rsquo;s college in Massachusetts, USA) where I studied Statistical and Data Sciences &amp;amp; Mathematics. I am passionate about data science, business analysis, research, and solving complicated mathematical equations. I am looking for full-time opportunities beginning immediately!
+My primary programming language is R but I am comfortable in python, SQL, Tableau, LaTeX, and HTML/CSS.
+I enjoy contributing to open-source software.</description>
     </item>
     
     <item>
       <title>Aligned Hierarchies</title>
-      <link>https://mariumtapal.rbind.io/projects/ah/ah/</link>
+      <link>https://mariumtapal.rbind.io/projects/ah/repytah/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mariumtapal.rbind.io/projects/ah/ah/</guid>
-      <description>Aligned Hierarchies (ah) is an open-source Music Information Retrieval Python package. I am working with a geographically distributed team of 5 people to accomplish the following by August 2021:
- host package on the Python Package Index and on Anaconda.org build a documentation website via Sphinx submit a paper to the Journal of Open Source Software.  Once this project is made public, I will add relevant links.</description>
+      <guid>https://mariumtapal.rbind.io/projects/ah/repytah/</guid>
+      <description>repytah is an open-source Music Information Retrieval Python package for building Aligned Hierarchies. I worked with a geographically distributed team of 6 people between May - August 2021. During my time, I
+ spearheaded the software production of the package for future distribution on PyPI and Anaconda updated 8 functions and wrote &amp;gt;10000 lines of code built supporting website wrote draft paper for submission to the Journal of Open Source Software  Links:</description>
     </item>
     
     <item>
