@@ -19,12 +19,12 @@ Here is the GitHub repo for this project. You can view the activity here.</descr
     
     <item>
       <title>Aligned Hierarchies</title>
-      <link>https://mariumtapal.rbind.io/projects/ah/ah/</link>
+      <link>https://mariumtapal.rbind.io/projects/ah/repytah/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mariumtapal.rbind.io/projects/ah/ah/</guid>
-      <description>Aligned Hierarchies (ah) is an open-source Music Information Retrieval Python package. I am working with a geographically distributed team of 5 people to accomplish the following by August 2021:
- host package on the Python Package Index and on Anaconda.org build a documentation website via Sphinx submit a paper to the Journal of Open Source Software.  Once this project is made public, I will add relevant links.</description>
+      <guid>https://mariumtapal.rbind.io/projects/ah/repytah/</guid>
+      <description>repytah is an open-source Music Information Retrieval Python package for building Aligned Hierarchies. I worked with a geographically distributed team of 6 people between May - August 2021. During my time, I
+ spearheaded the software production of the package for future distribution on PyPI and Anaconda updated 8 functions and wrote &amp;gt;10000 lines of code built supporting website wrote draft paper for submission to the Journal of Open Source Software  Links:</description>
     </item>
     
     <item>
