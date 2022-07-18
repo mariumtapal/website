@@ -1,56 +1,131 @@
-## Basic Configuration
-
 baseurl = "https://mariumtapal.rbind.io/"
-builddrafts = false
-canonifyurls = false
-languageCode = "en-US"
-
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-
+theme = "hugo-apero"
+languageCode = "en"
 author = "Marium Tapal"
 title = "Marium Tapal"
+copyright = ""
 
-theme = "hugo-goa"
+googleAnalytics = ""
+disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+metaDataFormat = "yaml"
+footnoteReturnLinkContents = "&#8617;" # ↩
+# set deliberately low for testing choose your preffered number based on the blog layout you've chosen
+paginate = 5
+preserveTaxonomyNames = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+enableEmoji = true
 
-## Hugo Built-in Features
-#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-#googleAnalytics = "XYZ"
-#enableRobotsTXT = true
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+    hardwraps = false 
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 2
+    ordered = false
+  [markup.highlight]
+    # one of: https://xyproto.github.io/splash/docs/ 
+    #style = "arduino" # "arduino" "github"
+    noClasses = false
+    
+# Syntax highlighting
+pygmentsUseClasses = true  # use class names instead of directly inserting color codes
+#pygmentsCodeFences = true  # enable GitHub style code snippets
 
-## Site Settings
+# URLs 
+[permalinks]
+  about = "/about/:year-:slug/"
+  resume = "/resume/:year-:slug/"
+  projects = "/projects/:year-:slug/"
+  blog = "/blog/:year-:slug/"
+  
+  # https://gohugo.io/content-management/urls/#relative-urls
+relativeURLs = true
+
 [params]
-author = "Marium Tapal"
-intro = "Recent Graduate of Smith College"
-description = "Double Major in Statistical and Data Sciences & Mathematics"
-authorimage = "headshot.JPG"
-dateformat = "Jan 2, 2006"
+  orgName = "Marium Tapal"
+  orgLocal = ""
+  #description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = "Personal website of Marium Tapal"
+  #favicon = "/img/favicon.ico"
+  favicon = "/favicon-16x16.png"
+  logo = "/img/blogophonic-mark-dark.png"
+  #logo = "/img/logo_noBg.svg"
+  mainSections = ["about", "resume", "projects", "blog"]
+  navallcaps = true
+  # show/hide social icons in site header & footer
+  # configure social icons and links below in [[params.social]]
+  socialInHeader = false
+  socialInFooter = true
+  # Default image for social sharing and search engines. 
+  # Place image file in `static` folder and specify image name here.
+  sharing_image = "/img/headshot.JPG"
+  #sharing_image = "/img/silvia-social.png"
+  # Twitter username (without @). Used when a visitor shares your site on Twitter.
+  twitter = "mariumtapal"
+  
+  # use a built-in color theme
+  # one of: forest / grayscale / peach / plum /
+  #         poppy / sky / violet / water 
+  theme = "violet"
+  
+  # or, leave theme empty & make your own palette
+  # see docs at https://hugo-apero.netlify.app/blog/color-themes/
+  # the custom scss file must be in the assets/ folder
+  # add the filename name here, without extension
+  # to use hex colors instead of named tachyons colors, include "hex" in filename
+  # Note from Silvia: I designed this site's custom theme for me, 
+  # please do not reuse it without permission:
+  # custom_theme = "silvia-hex"
+  
+  # use an embedded font-family
+  # serif options: Fraunces / EB Garamond / Bitter
+  # sans-serif options: Commissioner / Alegreya Sans / Metropolis / Red Hat Text
+  # if you import your own fonts, name them here too
+  # Note from Silvia: I designed this site's custom theme for me, 
+  # please do not reuse it without permission
+  # customtextFontFamily = "Red Hat Text"
+  # customheadingFontFamily = "Petrona" # Petrona
+  # alternatively, leave empty and select basic font options: sans-serif or serif
+  # for more http://tachyons.io/docs/typography/font-family/
+  textFontFamily = "sans-serif"
+  #headingFontFamily = "serif"
+  #textFontFamily = "avenir"
+  headingFontFamily = "athelas"
 
-## Site Meta Settings
-[params.meta]
-description = "Marium Tapal's Personal Website"
-keywords = "data science, student, mathematics, analytics"
 
-## Social Accounts
-[params.social]
-github = "mariumtapal"
-linkedin = "mariumtapal"
-twitter = "mariumtapal"
-email = "mariumtapal@gmail.com"
-
-## Extras
-[params.extra]
-copyright = "&copy; 2022 Marium Tapal"
-poweredby = true
-highlightjs = true
-socialmarkup = false
-toc = false
-displayrssicon = false
+# Configuration of https://utteranc.es/ for comments
+[params.utterances]
+  use_utterances = true
+  repo_name = "mariumtapal/website"
+  issue_term = "title" # url, pathname, or title
+  theme = "boxy-light" # TODO: change to "preferred-color-scheme" when you enable dark mode toggle
+  label = "comments :crystal_ball:"
 
 
-### ignore files
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+[[params.social]]
+    icon      = "twitter" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://twitter.com/mariumtapal"
+[[params.social]]
+    icon      = "github" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://github.com/spcanelon/mariumtapal"
+[[params.social]]
+  icon      = "orcid" # icon name without the 'fa-'
+  icon_pack = "ai"
+  url       = "https://orcid.org/0000-0001-5093-6462"
+[[params.social]]
+  icon      = "linkedin" # icon name without the 'fa-'
+  icon_pack = "fab"
+  url       = "https://linkedin.com/in/mariumtapal"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
 
 ## Main Menu
 [[menu.main]]
@@ -75,7 +150,70 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/blog/"
 
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[menu]
+  # Configure header 
+  [[menu.header]]
+    name = "about"
+    title = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.header]]
+    name = "resume"
+    title = "Resume"
+    url = "/resume/"
+    weight = 2
+  [[menu.header]]
+    name = "projects"
+    title = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.header]]
+    name = "blog"
+    title = "Blog"
+    url = "/blog/"
+    weight = 4
+
+  # Configure footer  
+  [[menu.footer]]
+    name = "License"
+    title = "License Details"
+    url = "/license/"
+    weight = 3
+  [[menu.footer]]
+    name = "Contact"
+    title = "Contact Form"
+    url = "/contact/"
+    weight = 2
+  [[menu.footer]]
+    name = "Accessibility"
+    title = "Accessibility Commitment"
+    url = "/accessibility/"
+    weight = 1
+  [[menu.footer]]
+    name = "RSS"
+    title = "Subscribe via RSS"
+    url = "/blog/index.xml/"
+    weight = 5
+
+# see https://gohugo.io/about/hugo-and-gdpr/    
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>Workshop: Intro to Git/GitHub | Marium Tapal</title>
+
+
+<meta property="twitter:site" content="@mariumtapal">
+<meta property="twitter:creator" content="@mariumtapal">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Personal website of Marium Tapal">
+
+
+<meta property="og:site_name" content="Marium Tapal">
+<meta property="og:title" content="Workshop: Intro to Git/GitHub | Marium Tapal">
+<meta property="og:description" content="Personal website of Marium Tapal" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://mariumtapal.rbind.io/blog/1-workshop-intro-to-git/github/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://mariumtapal.rbind.io/img/headshot.JPG" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://mariumtapal.rbind.io/img/headshot.JPG" >
+    
+  <meta itemprop="name" content="Workshop: Intro to Git/GitHub">
+<meta itemprop="description" content="Hello, welcome to the intro to Git and GitHub workshop by Smithies in SDS! This workshop will primarily use the RStudio IDE to interact with Git - which I will demonstrate.
+1. What is Git? What is GitHub? In short, Git is a version control system. It is a tool to manage different versions of your code/projects (i.e. a repository). GitHub, on the other hand, is a (there are a few others) hosting service for Git repositories.">
+
+<meta itemprop="wordCount" content="1136">
+<meta itemprop="keywords" content="" />
+  
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/favicon-16x16.png" type="image/x-icon">
+  <link rel="icon" href="/favicon-16x16.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.5e2705601e06298e38e6d6e71a7589cc368fa01b780d1ffe4de9a0f5622d12d3.css" integrity="sha256-XicFYB4GKY445tbnGnWJzDaPoBt4DR/&#43;Temg9WItEtM=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mariumtapal.rbind.io/" title="Home">
+      <img src="/img/blogophonic-mark-dark.png" class="dib db-l h2 w-auto" alt="Marium Tapal">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About">about</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resume">resume</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/projects/" title="Projects">projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">blog</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Workshop: Intro to Git/GitHub</h1>
+        
+        
+        
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Hello, welcome to the intro to Git and GitHub workshop by Smithies in SDS! This workshop will primarily use the RStudio IDE to interact with Git - which I will demonstrate.</p>
+<div id="what-is-git-what-is-github" class="section level2">
+<h2>1. What is Git? What is GitHub?</h2>
+<p>In short, <strong>Git</strong> is a version control system. It is a tool to manage different versions of your code/projects (i.e. a repository). <strong>GitHub</strong>, on the other hand, is a (there are a few others) hosting service for Git repositories.</p>
+<p>Think of it this way - think of <strong>Git</strong> as the engine of a car, and <strong>GitHub</strong> the dashboard, i.e. <strong>Git</strong> works behind-the-scenes, and <strong>GitHub</strong> is where you where you store the stuff. Another allusion, for example is the difference of R vs RStudio. R is the engine, RStudio, the dashboard.</p>
+<p>So in conclusion, they are not the same thing: Git is a tool, GitHub is a service for projects that use Git.</p>
+</div>
+<div id="installing-git-on-your-computer" class="section level2">
+<h2>2. Installing Git on your computer</h2>
+<p>Guide: <a href="https://github.com/git-guides/install-git">https://github.com/git-guides/install-git</a></p>
+<p>First let’s make sure, you don’t have Git already installed. Open the Windows Command Prompt if you are on windows or the Terminal application if you are on Mac, and type <code>git version</code>. If it shows you something like <code>git version 2.19.2</code>, you are good to go and can skip this step!</p>
+<p><img src="/blog/intro_git_workshop_files/terminal.png" style="width:75.0%" /></p>
+<p>If not, go to the guide and follow the instructions in the <code>Install Git on Mac</code> or <code>Install Git on Windows</code> sections.</p>
+</div>
+<div id="creating-an-account-on-github" class="section level2">
+<h2>3. Creating an account on GitHub</h2>
+<p>To actually use Git, you need a GitHub account, where your files will be stored. This is pretty much like signing up for a social media account.</p>
+<p>Go to <a href="https://github.com/signup?source=login">https://github.com/signup?source=login</a> and follow the instructions!</p>
+</div>
+<div id="configuring-git-on-your-computer" class="section level2">
+<h2>4. Configuring Git on your computer</h2>
+<p>Now let’s open RStudio!</p>
+<p>In the bottom left of the screen, you will see something called console. We need to switch to the terminal tab which is right next to it.</p>
+<p><img src="/blog/intro_git_workshop_files/console_to_terminal.png" style="width:75.0%" /></p>
+<p>Once you are in the terminal, let’s set up Git.</p>
+<p>First configure your user name. This is what your user name is on GitHub. For example, I would type:</p>
+<pre><code>$ git config --global user.name &quot;mariumtapal&quot;</code></pre>
+<p>Note that you don’t actually write the <code>$</code> sign.</p>
+<p>Then configure your email - the one you used to sign up for your GitHub account:</p>
+<pre><code>$ git config --global user.email mariumtapal@gmail.com</code></pre>
+</div>
+<div id="create-your-first-repositoryproject" class="section level2">
+<h2>5. Create your first repository/project</h2>
+<p>Now that we have Git configured on your computer, go back to your GitHub profile (on github.com). On the top right corner, you’ll see a drop down menu, and click on <strong>Your repositories</strong>:</p>
+<p><img src="/blog/intro_git_workshop_files/github.png" style="width:75.0%" /></p>
+<p>Now you will be at a page that looks somewhat like the one below. Click on the green button that says <strong>New</strong>:</p>
+<p><img src="/blog/intro_git_workshop_files/new%20repo.png" style="width:75.0%" /></p>
+<p>Now let’s create your first repository (often abbreviated to <strong>repo</strong>). First this tutorial, I’ll use the following configurations:</p>
+<ul>
+<li><strong>No template</strong> in the repository template option</li>
+<li>give the repository a meaningful name. I’m calling it <strong>test</strong>, you can call it whatever you want!</li>
+<li>an optional description</li>
+<li>keeping the repository <strong>public</strong> (that means anyone can see its contents)</li>
+<li>initializing with a README (which is usually an instruction manual about the contents of your repository)</li>
+</ul>
+<p>Finally click the green button called <strong>Create repository</strong>!</p>
+<p><img src="/blog/intro_git_workshop_files/setup%20repo%201.png" style="width:75.0%" /></p>
+<p><img src="/blog/intro_git_workshop_files/setup%20repo%202.png" style="width:75.0%" /></p>
+</div>
+<div id="cloning-it-locally" class="section level2">
+<h2>6. Cloning it locally</h2>
+<p>Now let’s get the repository locally!</p>
+<p>On your repository page, click on the green code button, switch to <code>HTTPS</code> and copy the url as shown in the screenshot below:</p>
+<p><img src="/blog/intro_git_workshop_files/cloning.png" style="width:75.0%" /></p>
+<p>Go back to RStudio. On the top right corner, click on the drop down menu where is says <code>Project (None)</code>, then click on <code>New Project</code> –&gt; <code>Version Control</code> –&gt; <code>Git</code> and then in the <code>Repository URL</code> field, paste the URL. The project directory field will be auto-filled, and then you can select the location where you want the project to live locally in the third field.</p>
+<p><img src="/blog/intro_git_workshop_files/np1.png" style="width:50.0%" />
+<img src="/blog/intro_git_workshop_files/np2.png" style="width:50.0%" />
+<img src="/blog/intro_git_workshop_files/np3.png" style="width:50.0%" /></p>
+<p>Click <strong>Create Project</strong>, and you have a local R project!</p>
+<p><strong>Note:</strong> If at this point you are asked to enter a password, you actually have to create and enter a Personal Access Token. <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">Here</a> is a guide to create one!</p>
+</div>
+<div id="commits-pushes-pulls" class="section level2">
+<h2>7. Commits, pushes, &amp; pulls</h2>
+<p>So how do we get our project on GitHub? We do that through commits, pushes and pulls!</p>
+<p>Here is short definition of what each of these things mean. Then I’ll show you how to send a file on GitHub, directly from RStusio.</p>
+<ul>
+<li>A <strong>commit</strong> is saving the state of your code into version control i.e Git</li>
+<li>A <strong>push</strong> is sending your commited coded to a remote server i.e. GitHub</li>
+<li>A <strong>pull</strong> is downloading the newest changes from a remote server (i.e. GitHub) to your local repository (on your computer)</li>
+</ul>
+<p>So let’s put it in action.</p>
+<ol style="list-style-type: decimal">
+<li>Create a new file in the project folder on your computer (or move one here). In the example below, the R script called <code>jfk_flights.R</code> is in the folder of my project (look at the arrows). Also look that we have a new tab in the upper right hand of the screen! This is where the committing, pushing, and pulling will happen!</li>
+</ol>
+<p><img src="/blog/intro_git_workshop_files/screen.png" style="width:75.0%" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Now let’s select the filed we want to put to GitHub. From the <strong>Git</strong> tab, select <code>jfk_flights.R</code>, and the other files that were created automatically.</li>
+</ol>
+<p><img src="/blog/intro_git_workshop_files/select.png" style="width:75.0%" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>After that we will hit the <strong>commit</strong> button right above that. Clicking the commit button will bring up a new window. Enter a meaningful message in the space provided, so you can remember what you did in this commit. Then click the commit button!</li>
+</ol>
+<p><img src="/blog/intro_git_workshop_files/commit.png" style="width:75.0%" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>You’ll now see a window pop-up that tells you that your commit was successful! Close that window. Now you’re back at a screen where it will say “Your branch is ahead of ‘origin/main’ by 1 commit”. This means that your work is at the staging area, right before it is pushed to GitHub. Now click the green arrow button that says push to get your files onto GitHub. Yay! Your work is now on GitHub. You can now go to github to your repository to view your files and commit there!</li>
+</ol>
+<p><img src="/blog/intro_git_workshop_files/push.png" style="width:75.0%" /></p>
+<p><img src="/blog/intro_git_workshop_files/github%20commit.png" style="width:75.0%" /></p>
+<ol start="5" style="list-style-type: decimal">
+<li>Finally, what is a pull? A pull is when there are files/updates to files on GitHub, but not on your computer. On RStudio, in the Git panel, there is a <strong>pull</strong> button (a blue arrow) next to the commit button that will do this for you. Right now, since the project on your computer and on GitHub have the same files, <strong>Git</strong> will tell you that your project is “Already up to date.”</li>
+</ol>
+<p><img src="/blog/intro_git_workshop_files/pull.png" style="width:75.0%" /></p>
+</div>
+<div id="extra-stuff" class="section level2">
+<h2>8. Extra Stuff!</h2>
+<p>This was just the starting point of using Git with GitHub! There are a whole bunch of things and tools to work collaboratively and smartly. Forks, Branches, Pull Requests, GitHub Pages are just more things to look into! Infact, this tutorial also lives on GitHub!</p>
+<p>If you are curious, here are some resources where you can learn more about these things:</p>
+<ul>
+<li>Spinelli Center Tutors - Sunday to Thursday, 7-9 pm, Sabin Reed 301</li>
+<li>Your professor’s office hours</li>
+<li>Book: <a href="https://happygitwithr.com/index.html">Happy Git and GitHub for the useR</a></li>
+</ul>
+</div>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 1, 0001</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">6 minute read, 1136 words</dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://mariumtapal.rbind.io/blog/1-summer-2020-data-science-internship-praxis-funded/">&larr; Summer 2020 Data Science Internship (Praxis Funded!)</a>
+  
+  
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Marium Tapal
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/mariumtapal" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/spcanelon/mariumtapal" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0001-5093-6462" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mariumtapal" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/accessibility/" title="Accessibility Commitment">Accessibility</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact Form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License Details">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml/" title="Subscribe via RSS">RSS</a>
+      
+    </div>
+  </nav>
+  
+</footer>
+
+      </div>
+    </body>
+</html>

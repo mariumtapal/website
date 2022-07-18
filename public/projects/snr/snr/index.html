@@ -1,142 +1,156 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
+<html lang="en-US" dir="ltr"><head>
+  
+                           
+     
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="Marium Tapal&#39;s Personal Website">
-<meta name="keywords" content="data science, student, mathematics, analytics">
-
-<title>
-  Marium Tapal - Automated Simple Normal Regression in R 
-</title>
-
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.83.1" />
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-<link rel="stylesheet" href="https://mariumtapal.rbind.io/css/main.css">
-<link rel="stylesheet" href="https://mariumtapal.rbind.io/css/custom.css">
+<title>Automated Simple Normal Regression in R | Marium Tapal</title>
 
 
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
 
+
+
+
+  
+    
+  
+<meta name="description" content="Double Major in Statistical and Data Sciences &amp; Mathematics">
+
+
+<meta property="og:site_name" content="Marium Tapal">
+<meta property="og:title" content="Automated Simple Normal Regression in R | Marium Tapal">
+<meta property="og:description" content="Double Major in Statistical and Data Sciences &amp; Mathematics" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://mariumtapal.rbind.io/projects/snr/snr/" />
+<meta property="og:locale" content="en-US">
+
+
+
+
+    
+        <meta property="og:image" content="%!s()" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="%!s()" >
+    
+  <meta itemprop="name" content="Automated Simple Normal Regression in R">
+<meta itemprop="description" content="This project attempts to automate and greatly simplify the process of conducting a Bayesian Simple Normal Regression in R, allowing users to generate an entire report containing a fully customized analysis – including information such as model quality, proposed regression lines, posterior predictions, and more – using only a single line of code.
+This project uses a parameterized R Markdown report and a simple function to perform the magic!">
+
+<meta itemprop="wordCount" content="85">
+<meta itemprop="keywords" content="" />
+  
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="icon" href="" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/scaffold.scss" integrity="" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
 </head>
-<body lang="en-US">
-<div class="container">
-
-
-<header class="row text-left title">
-  <h1 class="title">Automated Simple Normal Regression in R</h1>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mariumtapal.rbind.io/" title="Home">
+      <span class="f4 fw7">Marium Tapal</span>
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ">
+      
+      
+    </div>
+  </nav>
 </header>
-<section id="category-pane" class="row meta">
-  
-  <div class="col-md-12">
-    <h6 class="text-left meta">
-       
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Automated Simple Normal Regression in R</h1>
+        
+        
+        
+
       
-      
-      
-      
-    </h6>
-  </div>
-  
-</section>
-<section id="content-pane" class="row">
-  <div class="col-md-12 text-justify content">
-    
-    
+
+      </header>
+      <section class="post-body pt5 pb4">
+        
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
 <p>This project attempts to automate and greatly simplify the process of conducting a Bayesian Simple Normal Regression in R, allowing users to generate an entire report containing a fully customized analysis – including information such as model quality, proposed regression lines, posterior predictions, and more – using only a single line of code.</p>
 <p>This project uses a parameterized R Markdown report and a simple function to perform the magic! You can look at the code and read more about it in the GitHub repo <a href="https://github.com/mariumtapal/bayes-regression-report">here</a>.</p>
 
-  </div>
-</section>
-<section id="tag-pane" class="row meta">
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 1, 0001</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">1 minute read, 85 words</dd>
+  </dl>
   
-  <div class="col-md-12">
-    <h6 class="text-right meta">
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://mariumtapal.rbind.io/projects/ah/repytah/">&larr; Aligned Hierarchies</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://mariumtapal.rbind.io/projects/fec16/fec16/">fec16 R Package &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
       
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
       
-      
-      
-    </h6>
-  </div>
-  
-</section>
-
-
-
-
-
-
-
-
-<section id="menu-pane" class="row menu text-center">
-  
-  
-  <span><a class="menu-item" href="https://mariumtapal.rbind.io/projects/fec16/fec16/">&lt; prev | </a></span>
-  
-  
-  <span><a class="menu-item" href="/projects">projects</a></span>
-  
-  
-  <span><a class="menu-item" href="https://mariumtapal.rbind.io/projects/ah/repytah/"> | next &gt;</a></span>
-  
-  
-  <h4 class="text-center"><a class="menu-item" href="https://mariumtapal.rbind.io/">home</a></h4>
-</section>
-
-
-
-<footer class="row text-center footer">
-  <hr />
-  
-  <h6 class="text-center copyright">© 2022 Marium Tapal</h6>
-  
-  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo </a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
-  
-      
+    </div>
+  </nav>
   
 </footer>
 
-</div>
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  
-
-<script type="text/javascript">
-hljs.initHighlightingOnLoad();
-</script>
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
-<script src="js/custom.js"></script>
-</body>
+      </div>
+    </body>
 </html>
-
-

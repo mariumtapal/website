@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mariumtapal.rbind.io/projects/multimodal-memes/multimodal-memes/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-a-guided-activity-about-binary-classification-in-unimodal-and-multimodal-memes/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/tags/about/</loc>
   </url><url>
@@ -10,23 +10,23 @@
   </url><url>
     <loc>https://mariumtapal.rbind.io/about/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/projects/ah/repytah/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-aligned-hierarchies/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/projects/snr/snr/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-automated-simple-normal-regression-in-r/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/blog/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/categories/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/projects/fec16/fec16/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-fec16-r-package/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/projects/fivethirtyeight/fivethirtyeight/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-fivethirtyeight-r-package/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/projects/marium-bakes/marium_bakes/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-marium-bakes-a-baking-and-cooking-website/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/projects/moderndive/moderndive/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-moderndive-book-for-introductory-statistics-r-package-labs-website/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/projects/</loc>
   </url><url>
@@ -36,12 +36,14 @@
   </url><url>
     <loc>https://mariumtapal.rbind.io/resume/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/projects/shiny-nypd/shiny-nypd/</loc>
+    <loc>https://mariumtapal.rbind.io/series/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/blog/summer_internship_2020/</loc>
+    <loc>https://mariumtapal.rbind.io/projects/1-shiny-app-exploring-nyc-civilian-complaints-about-the-nypd/</loc>
+  </url><url>
+    <loc>https://mariumtapal.rbind.io/blog/1-summer-2020-data-science-internship-praxis-funded/</loc>
   </url><url>
     <loc>https://mariumtapal.rbind.io/tags/</loc>
   </url><url>
-    <loc>https://mariumtapal.rbind.io/blog/intro_git_workshop/</loc>
+    <loc>https://mariumtapal.rbind.io/blog/1-workshop-intro-to-git/github/</loc>
   </url>
 </urlset>
