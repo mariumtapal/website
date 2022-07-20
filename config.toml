@@ -21,13 +21,13 @@ enableEmoji = true
     unsafe = true  # Enable user to embed HTML snippets in Markdown content.
     hardwraps = false 
   [markup.tableOfContents]
-    startLevel = 1
+    startLevel = 2
     endLevel = 2
     ordered = false
   [markup.highlight]
     # one of: https://xyproto.github.io/splash/docs/ 
-    #style = "arduino" # "arduino" "github"
-    noClasses = false
+    style = "github"
+    #noClasses = false
     
 # Syntax highlighting
 pygmentsUseClasses = true  # use class names instead of directly inserting color codes
@@ -52,7 +52,7 @@ relativeURLs = true
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   #logo = "/img/logo_noBg.svg"
-  mainSections = ["about", "resume", "projects", "blog"]
+  mainSections = ["about", "projects"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -120,35 +120,15 @@ relativeURLs = true
   icon      = "linkedin" # icon name without the 'fa-'
   icon_pack = "fab"
   url       = "https://linkedin.com/in/mariumtapal"
+[[params.social]]
+  icon      = "envelope" # icon name without the 'fa-'
+  icon_pack = "far"
+  url       = "mailto:mariumtapal@gmail.com"
 
 [taxonomies]
   category = "categories"
   series = "series"
   tag = "tags"
-
-
-## Main Menu
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 100
-    url = "/about/"
-[[menu.main]]
-    name = "resume"
-    identifier = "resume"
-    weight = 200
-    url = "/resume/"
-[[menu.main]]
-    name = "projects"
-    identifier = "projects"
-    weight = 300
-    url = "/projects/"
-[[menu.main]]
-    name = "blog"
-    weight = 400
-    identifier = "blog"
-    url = "/blog/"
-
 
 [menu]
   # Configure header 
