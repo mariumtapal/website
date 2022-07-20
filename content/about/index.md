@@ -1,13 +1,7 @@
 ---
-categories:
-- about
 comments: false
-date: ""
 draft: false
 showpagemeta: false
-slug: ""
-tags:
-- about
 title: about
 ---
 
