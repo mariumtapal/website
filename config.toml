@@ -173,28 +173,6 @@ relativeURLs = true
     url = "/blog/"
     weight = 4
 
-  # Configure footer  
-  [[menu.footer]]
-    name = "License"
-    title = "License Details"
-    url = "/license/"
-    weight = 3
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact Form"
-    url = "/contact/"
-    weight = 2
-  [[menu.footer]]
-    name = "Accessibility"
-    title = "Accessibility Commitment"
-    url = "/accessibility/"
-    weight = 1
-  [[menu.footer]]
-    name = "RSS"
-    title = "Subscribe via RSS"
-    url = "/blog/index.xml/"
-    weight = 5
-
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
   [privacy.disqus]
