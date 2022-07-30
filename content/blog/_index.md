@@ -1,7 +1,7 @@
 ---
-title: Some Pitters and Patters with R
+title: Some things I blogged about
 description: |
-  
+  This is where I write longer articles and tutorials about my experiences and projects.
 author: "Marium Tapal"
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
