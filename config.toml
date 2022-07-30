@@ -141,17 +141,22 @@ relativeURLs = true
     name = "resume"
     title = "Resume"
     url = "/resume/"
-    weight = 2
+    weight = 5
   [[menu.header]]
     name = "projects"
     title = "Projects"
     url = "/projects/"
-    weight = 3
+    weight = 2
   [[menu.header]]
     name = "blog"
     title = "Blog"
     url = "/blog/"
     weight = 4
+  [[menu.header]]
+    name = "art"
+    title = "Art"
+    url = "/art/"
+    weight = 3
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
