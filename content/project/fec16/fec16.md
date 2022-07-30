@@ -5,7 +5,6 @@ image:
   caption: ''
   focal_point: Smart
 summary: An R data package that contains relational data for the United States 2015-2016 election cycle in the form of pre-loaded datasets and functions.
-
 tags:
 - R Packages
 - software
