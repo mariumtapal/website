@@ -68,7 +68,7 @@ relativeURLs = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = ""
+  theme = "violet"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -77,7 +77,7 @@ relativeURLs = true
   # to use hex colors instead of named tachyons colors, include "hex" in filename
   # Note from Silvia: I designed this site's custom theme for me, 
   # please do not reuse it without permission:
-  custom_theme = "marium-hex"
+  # custom_theme = "marium-hex"
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
