@@ -7,7 +7,7 @@ image:
 summary: A Python package for building Aligned Hierarchies.
 
 tags:
-- R Packages
+- Python Packages
 - software
 title: "repytah Python Package"
 links:
