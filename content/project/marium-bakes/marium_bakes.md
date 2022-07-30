@@ -2,7 +2,7 @@
 date: "2020-08-27"
 external_link: https://mariumtapal.github.io/marium-bakes/
 image:
-  caption: ''
+  caption: '[Photo by Brooke Lark on Unsplash](https://unsplash.com/photos/pGM4sjt_BdQ)'
   focal_point: Smart
 summary: My baking website containing some of my recipes.
 tags:
