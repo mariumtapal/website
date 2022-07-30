@@ -4,7 +4,7 @@ external_link: https://github.com/mariumtapal/hateful-memes-paper
 image:
   caption: ''
   focal_point: Smart
-summary: Attempts to teach binary classification in unimodal and multimodal memes in under 15 minutes. 
+summary: Attempt to teach binary classification in unimodal and multimodal memes in under 15 minutes. 
 tags:
 - R Markdown
 - Machine Learning
