@@ -37,8 +37,9 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
 [permalinks]
   about = "/about/:year-:slug/"
   resume = "/resume/:year-:slug/"
-  projects = "/projects/:year-:slug/"
+  project = "/project/:year-:slug/"
   blog = "/blog/:year-:slug/"
+  art = "/art/:year-:slug/"
   
   # https://gohugo.io/content-management/urls/#relative-urls
 relativeURLs = true
