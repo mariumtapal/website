@@ -1,8 +1,0 @@
----
-title: "Marium Bakes - A Baking (and cooking) Website"
-output: html_document
----
-
-I have created (currently a WIP) a baking website using `rmarkdown`, HTML, and CSS, that houses my favourite tried-and-tested recipes. It is hosted via GitHub Pages at: https://mariumtapal.github.io/marium-bakes/
-
-GitHub Repo: https://github.com/mariumtapal/marium-bakes/

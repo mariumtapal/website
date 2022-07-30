@@ -1,0 +1,119 @@
+---
+title: "Summer 2020 Data Science Internship (Praxis Funded!)"
+date: '2020-08-11'
+slug: summer-internship
+tags:
+  - internship
+subtitle: ''
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
+summary: "Debrief of my Summer 2020 remote internship."
+---
+
+
+
+<p>Owing to the COVID-19 pandemic, I was asked to leave my college campus mid-way through the Spring 2020 semester, which, for me, meant leaving the United States for my home in Pakistan. Amid this once-in-a-century pandemic, even though I was now 9 hours ahead of Eastern United States time (where Smith College is located), I wanted to gain some important research experience in Data Science for which, I reached out to Professor Albert Y. Kim. After a thorough email conversation and a Zoom meeting, this internship was created, kindly supported by Smith College’s <a href="https://www.smith.edu/about-smith/lazarus-center/praxis">Praxis Program</a>. This year, due to the pandemic, the Praxis application had an extended deadline with greater flexibility in eligibility criteria which made this internship possible!</p>
+<p>From June 1 to July 24, I worked remotely as a Data Science Intern with Professor Kim, who is an Assistant Professor of Statistical and Data Sciences at Smith College and to me, a mentor, adviser, and the individual who introduced me to R.</p>
+<p>Every Monday evening (and at other times as needed), we met over Zoom to discuss things that were missed over Slack, to review completed tasks since the last meeting, and subsequently, devise a plan for the upcoming week.</p>
+<p>As part of my internship, I worked on two main projects:</p>
+<ul>
+<li>the <a href="#fivethirtyeight"><code>fivethirtyeight</code></a> R package</li>
+<li>the <a href="#moderndive"><code>ModernDive</code></a> book + R package + labs website</li>
+</ul>
+<div id="fivethirtyeight" class="section level2">
+<h2><code>fivethirtyeight</code></h2>
+<p>At the start of the internship, the <code>fivethirtyeight</code> R data package was only partially hosted on The Comprehensive R Archive Network (CRAN), mainly because it exceeded the maximum 5MB size required by CRAN. My job was to come up with a solution to this issue while making a future-proof product, i.e. the solution would have the ability to add datasets in the future without extraneous work.</p>
+<p>Our solution was to use the <code>drat</code> package and functionality to host the larger datasets. We created the <code>fivethirtyeightdata</code> organization that included the <code>drat</code> repo and the <code>fivethirtyeightdata</code> add-on package. Some of the reasons why we decided to use the <code>drat</code> package are answered in these <a href="https://eddelbuettel.github.io/drat/DratFAQ.html">FAQs</a>. More information can be found on the <code>drat</code> <a href="https://dirk.eddelbuettel.com/code/drat.html">website</a>. The <code>fivethirtyeightdata</code> package is a regular R data package; it can be installed and ran independently. It contains all the datasets that were too large for the <code>fivethirtyeight</code> package and all the user-contributed vignettes that were made using <code>fivethirtyeight</code>/<code>fivethirtyeightdata</code> datasets.</p>
+<p>Other smaller <code>fivethirtyeight</code> tasks that I worked on were:</p>
+<ul>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/55">Issue 55</a>: Reflect the retirement of <a href="https://tidyr.tidyverse.org/reference/gather.html"><code>tidyr::gather()</code></a> to the new, updated, easier-to-use, <code>pivot_longer()</code>.</li>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/79">Issue 79</a>: Update the master Google Sheet with the new datasets added by students in Smith College’s SDS 390 class in Fall 2019.</li>
+<li><a href="https://github.com/rudeboybert/fivethirtyeight/issues/81">Issue 81</a>: Update examples in documentation from <code>if(FALSE)</code> to using <code>\dontrun{}</code>.</li>
+</ul>
+<p>Relevant Links:</p>
+<ul>
+<li><code>fivethirtyeight</code> <a href="https://github.com/rudeboybert/fivethirtyeight">repo</a> + <a href="https://fivethirtyeight-r.netlify.app">website</a></li>
+<li><code>fivethirtyeightdata</code> <a href="https://github.com/fivethirtyeightdata">organization</a>
+<ul>
+<li><code>drat</code> <a href="https://github.com/fivethirtyeightdata/drat">repo</a></li>
+<li><code>fivethirtyeightdata</code> <a href="https://github.com/fivethirtyeightdata/fivethirtyeightdata">repo</a> + <a href="https://fivethirtyeightdata.github.io/fivethirtyeightdata/">website</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="moderndive" class="section level2">
+<h2><code>ModernDive</code></h2>
+<p>The ModernDive textbook is a textbook for introductory statistics and data science which is available in print and as an open-source online version. Along with the textbook, there is the moderndive R package which includes data and functions to support the textbook, and a labs website that houses sample problem sets and projects as well as tips and tricks.</p>
+<p>Relevant Links:</p>
+<ul>
+<li>Book <a href="https://github.com/moderndive/ModernDive_book">repo</a> + <a href="https://moderndive.com">online textbook</a></li>
+<li>R package <a href="https://github.com/moderndive/moderndive">repo</a> + <a href="https://moderndive.github.io/moderndive/">website</a></li>
+<li>Labs <a href="https://github.com/moderndive/moderndive_labs">repo</a> + <a href="moderndive.com/labs">website</a></li>
+</ul>
+<div id="book" class="section level3">
+<h3>Book</h3>
+<p>My main task was to clean up the non-user facing internal R code and text for better reproducibility. A non-exhaustive list of issues I fixed:</p>
+<ul>
+<li><a href="https://github.com/moderndive/ModernDive_book/issues/351">Issue 351</a>:
+<ul>
+<li>ran styler on internal code chunks</li>
+<li>cleaned up code chunk options by setting global defaults</li>
+<li>purl management</li>
+</ul></li>
+<li><a href="https://github.com/moderndive/ModernDive_book/issues/354">Issue 354</a>: Replaced hard-coded data values with dynamic data values.</li>
+</ul>
+</div>
+<div id="labs-website" class="section level3">
+<h3>Labs Website</h3>
+<p>I helped with simplifying and organizing the labs website for a better user interface.</p>
+</div>
+<div id="r-package" class="section level3">
+<h3>R package</h3>
+<p>I assisted in solving some issues that came up with the <code>moderndive</code> R package:</p>
+<ul>
+<li><a href="https://github.com/moderndive/moderndive/issues/75">Issue 75</a>: Added message for the deprecation of the <code>gg_parallel_slopes()</code> function.</li>
+<li><a href="https://github.com/moderndive/moderndive/issues/90">Issue 90</a>: Figured out why a warning message was being output in the <code>get_regression_points()</code> function, through a series of tests. It turned out that the problem was an inconsistency in <code>broom</code> package update to v0.7.0. Issue filed <a href="https://github.com/tidymodels/broom/issues/896">here</a>.</li>
+</ul>
+</div>
+</div>
+<div id="general-takeaways" class="section level2">
+<h2>General Takeaways</h2>
+<p>This summer internship led to some takeaways, which I can roughly divide into two categories: 1. technical and 2. non-tech</p>
+<div id="technical" class="section level3">
+<h3>Technical</h3>
+<ul>
+<li>I learnt a great deal about general software engineering ideas in a data-science focused language, <strong>R</strong>. The work I did wasn’t data analysis, but it was the behind-the-scene work to data analysis.</li>
+<li>Refactoring the code in the ModernDive book led to an important conclusion: “Don’t repeat yourself”. In a Rmarkdown document, it is simple to create an object with code/text that will be written multiple times and then referencing it through inline R code or with the variable name. Perhaps, it might be a good idea to create a function, where appropriate</li>
+<li>I dived in deeper with version control in Git and GitHub. Got better at working with branches, forks, dependency graphs, issues, pull requests, and a lot more!</li>
+<li>When do you create a GitHub Organization for projects? When you have more than one relevant repository</li>
+<li>Got to know more about checks and continuous integration with Travis CI and GitHub Action — and figuring out how to pass them!</li>
+<li>I debugged quite a few different notes, warnings, and errors! Learnt that some of them might not be issues with your code, but that the problem exists upstream!</li>
+<li>Spent some time understanding basic HTML and CSS to use in collaboration with R: href’s, redirect files, and styling</li>
+<li>Shifted mindset to think like the user of the product — focusing on user experience</li>
+<li>Consequently, while I was familiar with R package development, I had never worked on updating a previously used package. I had to take into account that the user experience should not change much</li>
+<li>I researched into new technologies, such as using the <code>drat</code> package</li>
+<li>Reiterated the significance of a <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">Minimum Viable Product (MVP)</a>. Professor Kim introduced me to this philosophy about 2 years ago in the first data science class I took in Fall 2018</li>
+<li>The importance of reproducibility and providing clear instructions was evident. For example, when I was conducting the first round of tests for the fivethirtyeight/drat project, there was trouble - but I did get better at it!</li>
+</ul>
+</div>
+<div id="non-tech" class="section level3">
+<h3>Non-Tech</h3>
+<ul>
+<li>Since I was 9 time zones ahead of Professor Kim, structuring work time so that some work hours overlap with work hours in the US was important</li>
+<li>Collaborating while working remotely was very different to anything I had ever done before, but due to the nature of the work and all the technology available, it was seamless</li>
+<li>Communicating via Slack and Zoom, on time and frequently was important so that there were no breaks in work. Some things work better over zoom than via instant message</li>
+<li>Asking questions when needed and providing a lot of detail was helpful</li>
+<li>Adaptability to changing circumstances</li>
+</ul>
+</div>
+<div id="some-random-afterthoughts" class="section level3">
+<h3>Some random afterthoughts</h3>
+<ul>
+<li>I now know that I can do a lot of things that I think I can’t, and if I don’t know how, I can learn it</li>
+<li>Thousands of people all across the world use and look at my work - it is an incredible feeling</li>
+<li>I have concluded that I should take more varied coursework in statistics and data sciences in my remaining time at Smith, courses which are not necessarily required</li>
+<li>Not be intimidated at opportunities that seem out of reach. I was able to get this internship due to previous experiences which had scared me</li>
+</ul>
+</div>
+</div>
