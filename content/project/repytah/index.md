@@ -3,9 +3,8 @@ date: "2021-08-12"
 external_link: https://github.com/smith-tinkerlab/repytah
 image:
   caption: ''
-  focal_point: Smart
+  focal_point: Center
 summary: A Python package for building Aligned Hierarchies.
-
 tags:
 - Python Packages
 - software
