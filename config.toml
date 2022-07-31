@@ -53,7 +53,7 @@ relativeURLs = true
   favicon = "/img/favicon.ico"
   logo = "/img/logo.png"
   #logo = "/img/logo_noBg.svg"
-  mainSections = ["about", "project"]
+  mainSections = ["about"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
