@@ -1,16 +1,16 @@
 ---
-title: "Workshop: Intro to Git/GitHub"
-date: '2021-11-05'
-slug: git-workshop
+title: 'Workshop: Intro to Git/GitHub'
+date: "2021-11-05"
+slug: "git-workshop"
 tags:
-  - workshop
-  - git
+- workshop
+- git
 subtitle: ''
 image:
   caption: ''
   focal_point: ''
   preview_only: yes
-summary: "Intro Git/GitHub workshop for SSDS."
+summary: Intro Git/GitHub workshop for SSDS.
 ---
 
 ```{r setup, include=FALSE}
