@@ -13,9 +13,7 @@ image:
 summary: "Intro Git/GitHub workshop for SSDS."
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 
 Hello, welcome to the intro to Git and GitHub workshop by Smithies in SDS! This workshop will primarily use the RStudio IDE to interact with Git - which I will demonstrate. 
