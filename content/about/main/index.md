@@ -12,7 +12,7 @@ intro: |
 
   I studied Statistical and Data Sciences & Mathematics at Smith College, a historically women's college in Massachusetts. I enjoy thinking and learning about data science, technology advancement, open-source, digital design, business problem solving, research, and technical communication among other things. You can learn more about my open-source contributions by visiting the [projects](/project/) tab or viewing my [GitHub profile](https://github.com/mariumtapal). 
   
-  Outside of work, you can find me obsessing over coffee, baking all sorts of fun desserts (my [baking website](https://mariumtapal.github.io/marium-bakes/)), reading, experimenting with different [art projects](/art/), talking about languages, and learning new things.
+  Outside of work, you can find me obsessing over coffee, baking all sorts of fun desserts (my [baking website](https://mariumtapal.github.io/marium-bakes/)), reading, biking, and learning new things.
 
   Feel free to contact me via [email](mailto::mariumtapal@gmail.com) or on [Twitter](https://twitter.com/mariumtapal)!
 ---
