@@ -1,4 +1,4 @@
-baseurl = "https://mariumtapal.rbind.io/"
+baseurl = "https://www.mariumtapal.com/"
 theme = "hugo-apero"
 languageCode = "en"
 author = "Marium Tapal"
@@ -32,14 +32,6 @@ enableEmoji = true
 # Syntax highlighting
 pygmentsUseClasses = true  # use class names instead of directly inserting color codes
 #pygmentsCodeFences = true  # enable GitHub style code snippets
-
-# URLs 
-[permalinks]
-  about = "/about/:year-:slug/"
-  resume = "/resume/:year-:slug/"
-  project = "/project/:year-:slug/"
-  blog = "/blog/:year-:slug/"
-  art = "/art/:year-:slug/"
   
   # https://gohugo.io/content-management/urls/#relative-urls
 relativeURLs = true
@@ -106,13 +98,17 @@ relativeURLs = true
 
 
 [[params.social]]
-    icon      = "twitter" # icon name without the 'fa-'
+    icon      = "x-twitter" # icon name without the 'fa-'
     icon_pack = "fab"
-    url       = "https://twitter.com/mariumtapal"
+    url       = "https://x.com/mariumtapal"
 [[params.social]]
     icon      = "github" # icon name without the 'fa-'
     icon_pack = "fab"
     url       = "https://github.com/spcanelon/mariumtapal"
+[[params.social]]
+  icon      = "google-scholar" # icon name without the 'fa-'
+  icon_pack = "ai"
+  url       = "https://scholar.google.com/citations?user=e43r7DgAAAAJ&hl=en"
 [[params.social]]
   icon      = "orcid" # icon name without the 'fa-'
   icon_pack = "ai"
@@ -139,9 +135,9 @@ relativeURLs = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "resume"
-    title = "Resume"
-    url = "/resume/"
+    name = "CV"
+    title = "CV"
+    url = "/CV/marium_tapal_cv.pdf"
     weight = 5
   [[menu.header]]
     name = "projects"
