@@ -34,7 +34,7 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
 #pygmentsCodeFences = true  # enable GitHub style code snippets
   
   # https://gohugo.io/content-management/urls/#relative-urls
-relativeURLs = true
+#relativeURLs = true
 
 [params]
   orgName = "Marium Tapal"
