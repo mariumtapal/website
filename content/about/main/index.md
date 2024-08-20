@@ -3,6 +3,7 @@ title: "Hello. Thanks for visiting!"
 number_featured: 0
 use_featured: false
 number_categories: 0
+draft: false
 show_intro: true
 show_outro: false
 type: page
