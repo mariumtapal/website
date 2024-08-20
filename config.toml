@@ -98,10 +98,6 @@ relativeURLs = true
 
 
 [[params.social]]
-    icon      = "x-twitter" # icon name without the 'fa-'
-    icon_pack = "fab"
-    url       = "https://x.com/mariumtapal"
-[[params.social]]
     icon      = "github" # icon name without the 'fa-'
     icon_pack = "fab"
     url       = "https://github.com/spcanelon/mariumtapal"
@@ -121,6 +117,10 @@ relativeURLs = true
   icon      = "envelope" # icon name without the 'fa-'
   icon_pack = "far"
   url       = "mailto:mariumtapal@gmail.com"
+[[params.social]]
+  icon      = "x-twitter" # icon name without the 'fa-'
+  icon_pack = "fab"
+  url       = "https://x.com/mariumtapal"
 
 [taxonomies]
   category = "categories"
@@ -138,12 +138,12 @@ relativeURLs = true
     name = "CV"
     title = "CV"
     url = "/CV/marium_tapal_cv.pdf"
-    weight = 5
+    weight = 2
   [[menu.header]]
     name = "projects"
     title = "Projects"
     url = "/project/"
-    weight = 2
+    weight = 3
   [[menu.header]]
     name = "blog"
     title = "Blog"

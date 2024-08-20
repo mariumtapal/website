@@ -1,7 +1,6 @@
 ---
 title: "Marium Tapal"
 subtitle: "Research Associate @ Harvard Business School"
-description: "Hi, I'm Marium. This is my personal website that serves as my playground + portfolio."
 images:
   - img/headshot.JPG
 image_left: true
