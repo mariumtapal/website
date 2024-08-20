@@ -1,8 +1,7 @@
 ---
-title: "About me"
 description: |
   Marium's personal website.
-show_title: true
+show_title: false
 show_header: false
 sidebar_left: false
 # Keep this! Do not edit.

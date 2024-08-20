@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.mariumtapal.com/"
 theme = "hugo-apero"
 languageCode = "en"
 author = "Marium Tapal"
