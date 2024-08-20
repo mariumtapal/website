@@ -5,15 +5,8 @@ use_featured: false
 number_categories: 0
 show_intro: true
 show_outro: false
-intro: "I am a Research Associate at Harvard Business School where I work with data
-  to improve tools that help people learn about themselves. \n\nI studied Statistical
-  and Data Sciences & Mathematics at Smith College, a historically women's college
-  in Massachusetts. I enjoy thinking and learning about data science, technology advancement,
-  open-source, digital design, business problem solving, research, and technical communication
-  among other things. You can learn more about my open-source contributions by visiting 
-  the [projects](/project/) tab or viewing my [GitHub profile](https://github.com/mariumtapal).
-  \n\nOutside of work, you can find me obsessing over coffee, baking all sorts of
-  fun desserts (my [baking website](https://mariumtapal.github.io/marium-bakes/)),
-  reading, biking, and learning new things.\n\nFeel free to contact me via [email](mailto::mariumtapal@gmail.com)
-  or on [Twitter](https://twitter.com/mariumtapal)!\n"
+intro: "I am a Research Associate at Harvard Business School researching and building statistical tools that help people learn about themselves + improve their well-being. I'm passionate about statistical computing, quantitative methods, and creating real-world solutions through data-driven and statistical approaches. I also enjoy thinking about statistics and data science pedagogy.
+\n\nI studied Mathematics and Statistical and Data Sciences at Smith College, a historically women's college in Massachusetts.
+\n\nOutside of work, you can find me obsessing over coffee, baking all sorts of fun desserts (my [baking website](https://mariumtapal.github.io/marium-bakes/)), reading, biking, and learning new things.
+\n\nFeel free to contact me via [email](mailto::mariumtapal@gmail.com) or on [X](https://x.com/mariumtapal)!\n"
 ---

@@ -24,7 +24,7 @@ Hello, welcome to the intro to Git and GitHub workshop by Smithies in SDS! This 
 
 In short, **Git** is a version control system. It is a tool to manage different versions of your code/projects (i.e. a repository). **GitHub**, on the other hand, is a (there are a few others) hosting service for Git repositories. 
 
-Think of it this way - think of **Git** as the engine of a car, and **GitHub** the dashboard, i.e. **Git** works behind-the-scenes, and **GitHub** is where you where you store the stuff. Another allusion, for example is the difference of R vs RStudio. R is the engine, RStudio, the dashboard.
+Think of it this way - think of **Git** as the engine of a car, and **GitHub** the dashboard, i.e. **Git** works behind-the-scenes, and **GitHub** is where you where you store the stuff. 
 
 So in conclusion, they are not the same thing: Git is a tool, GitHub is a service for projects that use Git.
 
@@ -34,7 +34,7 @@ Guide: [https://github.com/git-guides/install-git](https://github.com/git-guides
 
 First let's make sure, you don't have Git already installed. Open the Windows Command Prompt if you are on windows or the Terminal application if you are on Mac, and type `git version`. If it shows you something like `git version 2.19.2`, you are good to go and can skip this step!
 
-![](intro_git_workshop_files/terminal.png){width=75%}
+![](intro_git_workshop_files/terminal.png)
 
 If not, go to the guide and follow the instructions in the `Install Git on Mac` or `Install Git on Windows` sections.
 
@@ -50,7 +50,7 @@ Now let's open RStudio!
 
 In the bottom left of the screen, you will see something called console. We need to switch to the terminal tab which is right next to it.
 
-![](intro_git_workshop_files/console_to_terminal.png){width=75%}
+![](intro_git_workshop_files/console_to_terminal.png)
 
 Once you are in the terminal, let's set up Git.
 
@@ -71,11 +71,11 @@ $ git config --global user.email mariumtapal@gmail.com
 
 Now that we have Git configured on your computer, go back to your GitHub profile (on github.com). On the top right corner, you'll see a drop down menu, and click on **Your repositories**:
 
-![](intro_git_workshop_files/github.png){width=75%}
+![](intro_git_workshop_files/github.png)
 
 Now you will be at a page that looks somewhat like the one below. Click on the green button that says **New**:
 
-![](intro_git_workshop_files/new repo.png){width=75%}
+![](intro_git_workshop_files/new repo.png)
 
 Now let's create your first repository (often abbreviated to **repo**). First this tutorial, I'll use the following configurations:
 
@@ -87,9 +87,9 @@ Now let's create your first repository (often abbreviated to **repo**). First th
 
 Finally click the green button called **Create repository**!
 
-![](intro_git_workshop_files/setup repo 1.png){width=75%}
+![](intro_git_workshop_files/setup repo 1.png)
 
-![](intro_git_workshop_files/setup repo 2.png){width=75%}
+![](intro_git_workshop_files/setup repo 2.png)
 
 ## 6. Cloning it locally
 
@@ -97,7 +97,7 @@ Now let's get the repository locally!
 
 On your repository page, click on the green code button, switch to `HTTPS` and copy the url as shown in the screenshot below:
 
-![](intro_git_workshop_files/cloning.png){width=75%}
+![](intro_git_workshop_files/cloning.png)
 
 Go back to RStudio. On the top right corner, click on the drop down menu where is says `Project (None)`, then click on `New Project` --> `Version Control` --> `Git` and then in the `Repository URL` field, paste the URL. The project directory field will be auto-filled, and then you can select the location where you want the project to live locally in the third field.
 
@@ -123,25 +123,25 @@ So let's put it in action.
 
 1. Create a new file in the project folder on your computer (or move one here). In the example below, the R script called `jfk_flights.R` is in the folder of my project (look at the arrows). Also look that we have a new tab in the upper right hand of the screen! This is where the committing, pushing, and pulling will happen!
 
-![](intro_git_workshop_files/screen.png){width=75%}
+![](intro_git_workshop_files/screen.png)
 
 2. Now let's select the filed we want to put to GitHub. From the **Git** tab, select `jfk_flights.R`, and the other files that were created automatically. 
 
-![](intro_git_workshop_files/select.png){width=75%}
+![](intro_git_workshop_files/select.png)
 
 3. After that we will hit the **commit** button right above that. Clicking the commit button will bring up a new window. Enter a meaningful message in the space provided, so you can remember what you did in this commit. Then click the commit button!
 
-![](intro_git_workshop_files/commit.png){width=75%}
+![](intro_git_workshop_files/commit.png)
 
 4. You'll now see a window pop-up that tells you that your commit was successful! Close that window. Now you're back at a screen where it will say "Your branch is ahead of 'origin/main' by 1 commit". This means that your work is at the staging area, right before it is pushed to GitHub. Now click the green arrow button that says push to get your files onto GitHub. Yay! Your work is now on GitHub. You can now go to github to your repository to view your files and commit there!
 
-![](intro_git_workshop_files/push.png){width=75%}
+![](intro_git_workshop_files/push.png)
 
-![](intro_git_workshop_files/github commit.png){width=75%}
+![](intro_git_workshop_files/github commit.png)
 
 5. Finally, what is a pull? A pull is when there are files/updates to files on GitHub, but not on your computer. On RStudio, in the Git panel, there is a **pull** button (a blue arrow) next to the commit button that will do this for you. Right now, since the project on your computer and on GitHub have the same files, **Git** will tell you that your project is "Already up to date." 
 
-![](intro_git_workshop_files/pull.png){width=75%}
+![](intro_git_workshop_files/pull.png)
 
 ## 8. Extra Stuff!
 
