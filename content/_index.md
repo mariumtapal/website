@@ -1,6 +1,6 @@
 ---
 title: "Marium Tapal"
-subtitle: "Research Associate @ Harvard Business School"
+subtitle: "Statistics PhD Student @ Rutgers University"
 images:
   - img/headshot.JPG
 image_left: true
