@@ -100,7 +100,7 @@ relativeURLs = true
 [[params.social]]
     icon      = "github" # icon name without the 'fa-'
     icon_pack = "fab"
-    url       = "https://github.com/spcanelon/mariumtapal"
+    url       = "https://github.com/mariumtapal"
 [[params.social]]
   icon      = "google-scholar" # icon name without the 'fa-'
   icon_pack = "fab"
@@ -117,6 +117,10 @@ relativeURLs = true
   icon      = "envelope" # icon name without the 'fa-'
   icon_pack = "far"
   url       = "mailto:mariumtapal@gmail.com"
+[[params.social]]
+  icon      = "bluesky" # icon name without the 'fa-'
+  icon_pack = "fab"
+  url       = "https://bsky.app/profile/mariumtapal.com"
 [[params.social]]
   icon      = "x-twitter" # icon name without the 'fa-'
   icon_pack = "fab"

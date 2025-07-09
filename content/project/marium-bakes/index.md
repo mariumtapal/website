@@ -20,3 +20,5 @@ links:
 ---
 
 I have created (currently a WIP) a baking website using `rmarkdown`, HTML, and CSS, that houses my favourite tried-and-tested recipes. It is hosted via GitHub Pages.
+
+Update: The website is now based on Quarto (but still some R Markdown)!
