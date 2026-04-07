@@ -4,6 +4,7 @@ date: '2020-08-11'
 slug: summer-internship
 tags:
   - internship
+  - rdev
 subtitle: ''
 image:
   caption: ''

@@ -1,12 +1,13 @@
 ---
 description: |
   Marium's personal website.
+title: "About"
 show_title: false
 show_header: false
 sidebar_left: false
 # Keep this! Do not edit.
 cascade:
-  headless: true
+  headless: false
 ---
 
 ** index doesn't contain a body, just front matter above.

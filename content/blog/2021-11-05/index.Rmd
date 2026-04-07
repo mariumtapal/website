@@ -3,8 +3,9 @@ title: 'Workshop: Intro to Git/GitHub'
 date: "2021-11-05"
 slug: "git-workshop"
 tags:
-- workshop
-- git
+  - workshop
+  - git
+  - rdev
 subtitle: ''
 image:
   caption: ''
